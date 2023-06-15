@@ -1,5 +1,3 @@
-import { useNavigation } from "@react-navigation/native";
-import { Pressable } from "react-native";
 import { Text } from "react-native";
 import { View } from "react-native";
 import { ImageBackground } from "react-native";
@@ -7,7 +5,6 @@ import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const Untitled2 = () => {
-  const navigation = useNavigation();
   return <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={{
       backgroundColor: "#f0f0f1",
@@ -15,15 +12,9 @@ const Untitled2 = () => {
       position: "relative",
       flex: 1
     }} style={styles.EwVFxLbH}>
-        <ImageBackground style={styles.PlxYxKLp} source={require("./PikPng.com_checkered-png_1916423.png")} resizeMode="cover"></ImageBackground>
-        <Pressable onPress={() => {
-        navigation.navigate("Untitled3");
-      }}>
-          <View style={styles.kDOnVpFH}>
-            <Text style={styles.baHoqIfz}>{"Start"}</Text>
-          </View>
-        </Pressable>
-      </ScrollView>
+        
+        
+      <View style={styles.GybOdJOw}><ImageBackground style={styles.WZIelxiD} source={require("./PikPng.com_checkered-png_1916423.png")} resizeMode="cover"></ImageBackground><View style={styles.iIofIBzL}><Text style={styles.reZXGtEC}>{"Started"}</Text></View></View></ScrollView>
     </SafeAreaView>;
 };
 
@@ -33,38 +24,52 @@ const styles = StyleSheet.create({
     backgroundColor: "#f14848"
   },
   EwVFxLbH: {
-    backgroundColor: "#f14848",
-    borderColor: "#f15c48"
+    backgroundColor: "#ffffff",
+    borderColor: "#ffffff",
+    opacity: 1
   },
-  PlxYxKLp: {
-    width: 129,
-    height: 81,
+  GybOdJOw: {
+    height: 911,
+    width: 1455,
+    backgroundColor: "#f53f26",
+    borderRadius: 0,
+    color: "#777777",
     position: "absolute",
-    left: 653.5,
-    top: 260
+    left: -9.5,
+    top: -7.5,
+    flexDirection: "row",
+    flex: 1
   },
-  kDOnVpFH: {
-    height: 30,
-    width: 300,
-    backgroundColor: "#f14848",
+  WZIelxiD: {
+    width: 455,
+    height: 314,
+    position: "absolute",
+    left: 500,
+    top: 298.5
+  },
+  iIofIBzL: {
+    height: 69,
+    width: 384,
+    backgroundColor: "#f82d2d",
     borderRadius: 10,
     color: "#777777",
     position: "absolute",
-    left: 558,
-    borderColor: "#f15c48",
-    top: 549
+    left: 527,
+    top: 647,
+    borderColor: "#ffffff",
+    borderWidth: 2
   },
-  baHoqIfz: {
-    width: 93,
-    height: 20,
+  reZXGtEC: {
+    width: 71,
+    height: 19,
     lineHeight: 14,
     fontSize: 18,
     borderRadius: 0,
-    position: "absolute",
-    left: 103.5,
-    top: 5,
     textAlign: "center",
-    color: "#fdfbfb"
+    position: "absolute",
+    left: 156.5,
+    top: 25,
+    color: "#ffffff"
   }
 });
 export default Untitled2;
