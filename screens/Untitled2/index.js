@@ -14,9 +14,16 @@ const Untitled2 = () => {
       padding: 10,
       position: "relative",
       flex: 1
-    }} style={styles.EwVFxLbH}><ImageBackground style={styles.PlxYxKLp} source={require("./PikPng.com_checkered-png_1916423.png")} resizeMode="cover"></ImageBackground><Pressable onPress={() => {
+    }} style={styles.EwVFxLbH}>
+        <ImageBackground style={styles.PlxYxKLp} source={require("./PikPng.com_checkered-png_1916423.png")} resizeMode="cover"></ImageBackground>
+        <Pressable onPress={() => {
         navigation.navigate("Untitled3");
-      }}><View style={styles.kDOnVpFH}><Text style={styles.baHoqIfz}>{"Start"}</Text></View></Pressable></ScrollView>
+      }}>
+          <View style={styles.kDOnVpFH}>
+            <Text style={styles.baHoqIfz}>{"Start"}</Text>
+          </View>
+        </Pressable>
+      </ScrollView>
     </SafeAreaView>;
 };
 
