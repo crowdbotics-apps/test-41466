@@ -40,8 +40,8 @@ const styles = StyleSheet.create({
     width: 129,
     height: 81,
     position: "absolute",
-    left: 113.5,
-    top: 277.5
+    left: 653.5,
+    top: 260
   },
   kDOnVpFH: {
     height: 30,
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     color: "#777777",
     position: "absolute",
-    left: 28,
+    left: 558,
     borderColor: "#f15c48",
     top: 549
   },
