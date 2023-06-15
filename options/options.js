@@ -1,7 +1,8 @@
 export const globalOptions = {
-  name: "test-41466",
-  url: "https://test-41466.botics.co",
-  api: "https://test-41466.botics.co/api/v1"
+  "name": "test-41466",
+  "url": "https://test-41466.botics.co",
+  "api": "https://test-41466.botics.co/api/v1",
+  "initialRoute": "addBankAccount"
 };
 export const modulesOptions = {
   "@modules/app-menu": {
