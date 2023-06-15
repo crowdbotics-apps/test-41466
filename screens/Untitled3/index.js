@@ -84,11 +84,11 @@ const styles = StyleSheet.create({
     top: 305
   },
   jxQstabZ: {
-    width: 378,
-    height: 632,
+    width: 450,
+    height: 634,
     position: "absolute",
-    left: -22,
-    top: 2,
+    left: -16,
+    top: 45,
     zIndex: -10
   },
   BtcKeXht: {
@@ -98,8 +98,8 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     color: "#777777",
     position: "absolute",
-    left: 47,
-    top: 386,
+    left: 50,
+    top: 341,
     borderColor: "#060606",
     opacity: 0.72
   },
@@ -110,8 +110,8 @@ const styles = StyleSheet.create({
     fontSize: 12,
     borderRadius: 0,
     position: "absolute",
-    left: 167.5,
-    top: 391,
+    left: 175,
+    top: 346,
     color: "#fcfcfc"
   }
 });
