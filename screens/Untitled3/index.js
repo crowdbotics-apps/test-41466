@@ -14,7 +14,12 @@ const Untitled3 = () => {
         <Text style={styles.bVMUEUwn}>{"Welcome to Login"}</Text>
         <Text style={styles.FVnRyfet}>{"Username"}</Text>
         <Text style={styles.EGFyOHyK}>{"Password"}</Text>
-        <ImageBackground style={styles.jxQstabZ} source={require("./shashank-sahay-vwJFEkK8Kcs-unsplash.jpg")} resizeMode="cover"><Pressable><View style={styles.BtcKeXht}></View></Pressable><Text style={styles.AQPuLsiy}>{"Login"}</Text></ImageBackground>
+        <ImageBackground style={styles.jxQstabZ} source={require("./shashank-sahay-vwJFEkK8Kcs-unsplash.jpg")} resizeMode="cover">
+          <Pressable>
+            <View style={styles.BtcKeXht}></View>
+          </Pressable>
+          <Text style={styles.AQPuLsiy}>{"Login"}</Text>
+        </ImageBackground>
       </ScrollView>
     </SafeAreaView>;
 };
