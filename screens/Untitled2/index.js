@@ -1,3 +1,5 @@
+import { useNavigation } from "@react-navigation/native";
+import { Pressable } from "react-native";
 import { Text } from "react-native";
 import { View } from "react-native";
 import { ImageBackground } from "react-native";
@@ -5,6 +7,7 @@ import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const Untitled2 = () => {
+  const navigation = useNavigation();
   return <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={{
       backgroundColor: "#f0f0f1",
@@ -14,7 +17,9 @@ const Untitled2 = () => {
     }} style={styles.EwVFxLbH}>
         
         
-      <View style={styles.GybOdJOw}><ImageBackground style={styles.WZIelxiD} source={require("./PikPng.com_checkered-png_1916423.png")} resizeMode="cover"></ImageBackground><View style={styles.iIofIBzL}><Text style={styles.reZXGtEC}>{"Started"}</Text></View></View></ScrollView>
+      <View style={styles.GybOdJOw}><ImageBackground style={styles.WZIelxiD} source={require("./PikPng.com_checkered-png_1916423.png")} resizeMode="cover"></ImageBackground><Pressable onPress={() => {
+          navigation.navigate("login2");
+        }}><View style={styles.iIofIBzL}><Text style={styles.reZXGtEC}>{"Started"}</Text></View></Pressable></View></ScrollView>
     </SafeAreaView>;
 };
 
